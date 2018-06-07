@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://jtortoise.github.io">
   <title>利用github-pages搭建个人博客网站 | JTortoise</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="参考链接 公孙二狗, http://xtuer.github.io How to use Hexo and deploy to GitHub Pages, https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39 hexo-theme-yilia, https://github.com/litten/hexo-theme-yili">
+  <meta name="description" content="神奇的github pagesgithub pages提供一项神奇的服务，在个人的github账户下新建一个项目为username.github.io的项目，注意username必须与个人在github上的帐号名一致，否则不起作用。在本地使用git工具新建个项目，与刚建立的username.github.io项目建立远程联系，随意新建一个index.html文件，里面加个Hello wrold!，">
 <meta name="keywords" content="blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用github-pages搭建个人博客网站">
 <meta property="og:url" content="http://jtortoise.github.io/2018/06/07/利用github-pages搭建个人博客网站/index.html">
 <meta property="og:site_name" content="JTortoise">
-<meta property="og:description" content="参考链接 公孙二狗, http://xtuer.github.io How to use Hexo and deploy to GitHub Pages, https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39 hexo-theme-yilia, https://github.com/litten/hexo-theme-yili">
+<meta property="og:description" content="神奇的github pagesgithub pages提供一项神奇的服务，在个人的github账户下新建一个项目为username.github.io的项目，注意username必须与个人在github上的帐号名一致，否则不起作用。在本地使用git工具新建个项目，与刚建立的username.github.io项目建立远程联系，随意新建一个index.html文件，里面加个Hello wrold!，">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:updated_time" content="2018-06-07T14:07:31.611Z">
+<meta property="og:updated_time" content="2018-06-07T15:35:33.280Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用github-pages搭建个人博客网站">
-<meta name="twitter:description" content="参考链接 公孙二狗, http://xtuer.github.io How to use Hexo and deploy to GitHub Pages, https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39 hexo-theme-yilia, https://github.com/litten/hexo-theme-yili">
+<meta name="twitter:description" content="神奇的github pagesgithub pages提供一项神奇的服务，在个人的github账户下新建一个项目为username.github.io的项目，注意username必须与个人在github上的帐号名一致，否则不起作用。在本地使用git工具新建个项目，与刚建立的username.github.io项目建立远程联系，随意新建一个index.html文件，里面加个Hello wrold!，">
   
   
     <link rel="icon" href="/favicon.png">
@@ -157,10 +157,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ol>
+        <h2 id="神奇的github-pages"><a href="#神奇的github-pages" class="headerlink" title="神奇的github pages"></a>神奇的github pages</h2><p><code>github pages</code>提供一项神奇的服务，在个人的github账户下新建一个项目为<code>username.github.io</code>的项目，<strong>注意<code>username</code>必须与个人在github上的帐号名一致，否则不起作用</strong>。在本地使用<code>git</code>工具新建个项目，与刚建立的<code>username.github.io</code>项目建立远程联系，随意新建一个<code>index.html</code>文件，里面加个<code>Hello wrold!</code>，推到<code>username.github.io</code>项目上。</p>
+<p>打开浏览器，输入<code>http://username.github.io</code>，然后就神奇的定位到<code>username.github.io</code>项目的index.html文件，也就是传说中的静态页面。</p>
+<h2 id="hexo博客框架及hexo主题yilia"><a href="#hexo博客框架及hexo主题yilia" class="headerlink" title="hexo博客框架及hexo主题yilia"></a>hexo博客框架及hexo主题yilia</h2><p>搞定一个域名来显示静态页面后，接下来面临的问题是：<strong>我特么只会写markdown文件啊，难不成你让我直接在一个html文件里面直接记笔记？？</strong>想想就知道不可能啦，那么是不是有存在一些工具能够把写出来的markdown文件给转换成html文件？答案是肯定的，这么反人类的操作，肯定会有相应的工具存在，这是在翻<a href="http://xtuer.github.io" target="_blank" rel="noopener">公孙二狗</a>的博客时候（觉得这博客挺好看的），然后就翻到了网站最下面的一行：<a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">Yilia</a> by Litten。</p>
+<p>就这样，直接就找到hexo工具及其所用的主题yilia，关于hexo结合git工具将本地的markdown文件渲染成html文件，再推到username,github.io的操作流程可以参考<a href="">How to use Hexo and deploy to GitHub Pages</a>。</p>
+<h2 id="感言"><a href="#感言" class="headerlink" title="感言"></a>感言</h2><p>原来前端玩的都是这种东西，貌似有点酷酷的。有机会接触下前端，不求多精通，只求自己可以随意修改页面~</p>
+<p>嗯~本人是一名刚入嵌入式Linux软件行业的18级应届毕业生~~路还远着呢~</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ol>
 <li>公孙二狗, <a href="http://xtuer.github.io" target="_blank" rel="noopener">http://xtuer.github.io</a></li>
 <li>How to use Hexo and deploy to GitHub Pages, <a href="https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39" target="_blank" rel="noopener">https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39</a></li>
 <li>hexo-theme-yilia, <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a></li>
+<li>github-pages, <a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a></li>
 </ol>
 
       
